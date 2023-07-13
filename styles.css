@@ -8,31 +8,52 @@ html {
 
 .container {
   display: flex;
+  flex-direction: column;
+  padding: 2rem;
 }
 
 .menu {
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
 }
 
 .items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .items__cards {
+  padding: 3rem;
+  max-width: 320px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .menu__title {
+  color: rgb(237, 100, 54);
+  text-transform: uppercase;
 }
 
 .menu__subtitle {
 }
 
 .menu__button {
+  background-color: rgb(237, 100, 54);
+  color: white;
+  text-transform: uppercase;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 10% 25%;
 }
 
-.items__cards--card1 {
-}
-
-.items__cards--card2 {
-}
-
-.items__cards--card3 {
+.items__cards {
+  max-width: 320px;
+  padding: 1rem 2rem;
+  border-radius: 15%;
 }
