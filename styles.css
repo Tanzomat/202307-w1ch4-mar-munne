@@ -3,5 +3,36 @@
 }
 
 html {
-  font-family: Nunito Sans, sans-serif;
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.menu {
+}
+
+.items {
+}
+
+.items__cards {
+}
+
+.menu__title {
+}
+
+.menu__subtitle {
+}
+
+.menu__button {
+}
+
+.items__cards--card1 {
+}
+
+.items__cards--card2 {
+}
+
+.items__cards--card3 {
 }
